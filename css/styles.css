@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Outfit", sans-serif;
+    background-image: url("../resources/Background_image@2x.png"); 
+    background-color: #121826;
+  }
+
+.main-content h1{
+  text-align: center;  
+  color: #E5E7EB;
+  margin-bottom: 1% ;
+  margin-top: 4% ;
+}
+
+.main-content p{
+  text-align: center;  
+  color: #9DA3AE;
+}
+
+section{
+  margin-top: 4%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.section{
+  border-radius: 5%;
+  background-color: #212936;
+  display: inline-block;
+  margin: 2%;
+  padding: 2%;
+  width: 25%;
+  height: 50%;
+
+}
+
+
+.emoji-section {
+  display: flex;
+  background-color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  /*To prevent the content to overflow*/
+  /*overflow: hidden;*/
+  width: fit-content;
+  height: fit-content;
+  padding: 4%;
+}
+
+.circle-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 8%;
+}
+
+.image-section img{
+  margin-top: 5%;
+  border-radius: 5%;
+}
+
+.title-section{
+  color: #E5E7EB;
+  margin-top: 5%;
+}
+
+.description-section{
+  color: #9DA3AE;
+  font-size: small;
+  margin-top: 5%;
+}
+
+
+@media(min-width:768px){
+  /* Styles for tablet view */
+
+  }
+
+  @media(max-width:767px){
+    /* Styles for mobile view */
+    
+    }
+      
+
+@media(orientation:landscape)and(min-width:768px){
+/* Styles for landscape orientation with a minimum width of 768px */
+}
+
+@media(orientation:landscape)and(max-width:767px){
+  /* Styles for landscape orientation with a minimum width of 768px */
+  }
